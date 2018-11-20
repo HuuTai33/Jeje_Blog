@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css" />
+
+    <!-- JS and Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
+
+    <!-- Title -->
+    <title> Accueil </title>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JS file -->
+    <script src="js/jsFunction.js"></script>
+
+    <!-- Icons library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 70px;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+
+        .fa-snapchat-ghost {
+            background: #fffc00;
+            color: white;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+    </style>
+
+</head>
+
+<body class="p-0 mb-2 bg-white text-dark">
+
+<!-- Header -->
+<div class="p-3 mb-2 bg-white text-dark" style="height: 200px;">
+<div class="row">
+    <div class="col"> </div>
+    <div class="col-6">
+        <div class="text-center">
+            <div>
+                <br>
+                <nom class="font-weight-bold"> JÉROME NGUYEN </nom>
+            </div>
+        </div>
+    </div>
+    <div class="col"></div>
+</div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top justify-content-center">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="navbar-nav collapse navbar-collapse" id="navbarTogglerDemo01">
+        <li class="nav-item">
+            <a id="acceuil-tab" data-toggle="tab" href="#acceuil" role="tab" aria-controls="acceuil" aria-selected="true" class="nav-link"><aNav>Accueil</aNav></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="illustrations-tab" data-toggle="tab" href="#illustrations" role="tab" aria-controls="illustrations" aria-selected="false"><aNav>Mes illustrations</aNav></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="montages-tab" data-toggle="tab" href="#montages" role="tab" aria-controls="montages" aria-selected="false"><aNav>Mes montages photos</aNav></a>
+        </li>
+    </ul>
+</nav>
+
+
+
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="acceuil" role="tabpanel" aria-labelledby="acceuil-tab">
+        <br><br>
+        <divPresentation>
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+
+                    <div class="text-center">
+                        <img class="img-fluid" src="pictures/Jerome.jpg" class="img-responsive">
+                        <br><br>
+                        <description> Jeune étudiant de 19ans à MJM Graphic Design Bordeaux, j'aime le caca parce que je suis scatophile. Encore en première année de graphisme, je suis en plein apprentissage. Acteur porno à mes heures perdues pour faire de l'oseille, tmtc c'est la hess ici. </description>
+                    </div>
+
+                    <br><br><br>
+
+                    <div class="text-center">
+                        <p class="font-weight-bold">Mes réseaux sociaux les kheys</p>
+                        <div>
+                            <a href="https://www.facebook.com/JeromeNgn?fref=hovercard&hc_location=chat" target="_blank" class="fa fa-facebook"></a>
+                            <a href="https://twitter.com/Jerome_Ngn?lang=fr" target="_blank" class="fa fa-twitter"></a>
+                            <a href="https://www.instagram.com/jerome_ngn/" target="_blank" class="fa fa-instagram"></a>
+                            <a href="https://www.snapchat.com/l/fr-fr/" target="_blank" class="fa fa-snapchat-ghost"></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </divPresentation>
+    </div>
+    <div class="tab-pane fade" id="illustrations" role="tabpanel" aria-labelledby="illustrations-tab">
+        <div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <br><br><br>
+                    <div class="container">
+                        <div class="row">
+                            <a href="pictures/illustrations/Jerome.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/illustrations/Jerome.png" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> Jerome Nguyen </pDessins></div>
+                            </a>
+                            <a href="pictures/illustrations/Antho.gif" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/illustrations/Antho.gif" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> Anthony le non PACES </pDessins></div>
+                            </a>
+                            <a href="pictures/illustrations/Ornella.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/illustrations/Ornella.png" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> Ornella RAZAAAA </pDessins></div>
+                            </a>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <a href="pictures/illustrations/Obama.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/illustrations/Obama.png" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> Barack Obama </pDessins></div>
+                            </a>
+                            <a href="pictures/illustrations/Pablo.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/illustrations/Pablo.png" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> Pabalo Emilio Escobarrrrrrrr </pDessins></div>
+                            </a>
+                            <a href="pictures/illustrations/Dillon.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/illustrations/Dillon.png" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> DJ Dillon Francis </pDessins></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="montages" role="tabpanel" aria-labelledby="montages-tab">
+        <div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <br><br><br>
+                    <div class="container">
+                        <div class="row">
+                            <a href="pictures/montages/Matthieu_Volcan.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/montages/Matthieu_Volcan.jpg" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> Oula volcan pas content </pDessins></div>
+                            </a>
+                            <a href="pictures/montages/Estelle_Dino.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/montages/Estelle_Dino.jpg" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> Estelle à JurassicWorld </pDessins></div>
+                            </a>
+                            <a href="pictures/montages/Jeje_Nike.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/montages/Jeje_Nike.jpg" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> Seul sur une île deserte, le film </pDessins></div>
+                            </a>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <a href="pictures/montages/EMF.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/montages/EMF.jpg" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> Electrobeach wa so fun </pDessins></div>
+                            </a>
+                            <a href="pictures/montages/CHAMPIOON.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/montages/CHAMPIOON.jpg" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> CHAMPIONS DU MOOOOONDE </pDessins></div>
+                            </a>
+                            <a href="pictures/montages/Estelle_Rio.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/montages/Estelle_Rio.jpg" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> Estelle qui fait de la balançoire au dessus Rio </pDessins></div>
+                            </a>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <a href="pictures/montages/Juliette_StarsMountain.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/montages/Juliette_StarsMountain.jpg" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> Juliette solo à la montagne mdr (mais belle vue sah) </pDessins></div>
+                            </a>
+                            <a href="pictures/montages/Mathilde_Garo.gif" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                <img src="pictures/montages/Mathilde_Garo.gif" class="img-fluid rounded"> <br> <div class="text-center"><pDessins> Mathie plouc devant Garo </pDessins></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
