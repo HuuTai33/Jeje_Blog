@@ -23,6 +23,11 @@ nom {
     font-weight: bold;
     font-size: 60px;
 }
+@media screen and (max-width: 1000px) {
+    nom{
+        font-size: 40px;
+    }
+}
 
 /* Description */
 description {
